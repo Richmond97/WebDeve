@@ -1,0 +1,142 @@
+html{
+  background-image: linear-gradient(to bottom right, #cecad9, #a1d1c7, #94a178,#799485,#58806a);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-attachment: fixed;
+}
+body{
+  height: 100%;
+}
+
+#formLayout{
+  background-color: white;
+  margin: auto;
+  width: 400px;
+  margin-top: 120px;
+  padding: 50px;
+  border-radius: 10px;
+  height: 500px;
+  box-shadow:3px 6px #888888;
+}
+.inputLay{
+     width: 300px;
+     height: 50px;
+     background :url(email.png);
+     background-repeat: no-repeat;
+     background-position: 2px 3px;
+     border-radius: 6px;
+     align-self:center;
+     display: inline-block;
+     font-family: "Courier New", Courier, monospace;
+     font-size:18px;
+   }
+#submit{
+  width: 150px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+  #titleFont {
+font-family: "Courier New", Courier, monospace;
+font-size: 22px;
+letter-spacing: 4.6px;
+word-spacing: 3.4px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+
+}
+
+#login{
+font-family: "Courier New", Courier, monospace;
+font-size: 22px;
+letter-spacing: 3.2px;
+word-spacing: 3.1px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
+/* Style the tab */
+/* .tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+} */
+
+/* Style the buttons that are used to open the tab content */
+/* .tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+} */
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+
+
+}
+
+h1 {
+
+font-family: "Courier New", Courier, monospace;
+font-size: 50px;
+letter-spacing: 1.6px;
+word-spacing: 1.4px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFF;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #f5eeed;
+}
