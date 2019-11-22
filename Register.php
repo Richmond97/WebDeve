@@ -1,6 +1,6 @@
 <?php
 include('RegisterStudent.php');
-
+include ('captcha.php');
 ?>
 
 <html>
@@ -21,7 +21,7 @@ include('RegisterStudent.php');
        
         <br><input class="inputLay" name="StudentEmail" style="text-indent:17px;" type="text" placeholder="Email" /><br>
        
-        <br><input id="passwordCheck" class="inputLay" style="text-indent:17px;" type="password" placeholder="Password" name="StudentPassword" /><br><br />
+        <br><input id="passwordCheck" class="inputLay" style="text-indent:17px;" type="password" placeholder="Password" name="StudentPassword" /><br><br>
         <select name="groupNumber">
             <option value="1">Group 1</option>
             <option value="2">Group 2</option>
@@ -34,9 +34,15 @@ include('RegisterStudent.php');
             <option value="9">Group 9</option>
             <option value="10">Group 10</option>
         </select>
-        <br />
-        <br />
+        <br>
+        <br>
         <input type="checkbox" onclick="HidePswrd()"> Show Password
+       <br>
+       <td colspan="2"><input name="captcha_code" type="text">
+           <br><br><br>
+            <img src="captcha_image.php" />
+            </td><br>
+       
         <br><input id="submit"type="submit" value="Create Account" name="registerSubmit" /><br>
   </form>
   </div> 

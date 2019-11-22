@@ -1,6 +1,5 @@
 <?php
-
-
+include('LoginUser.php');
 ?>
 
 <html>
@@ -15,7 +14,7 @@
 </ul>
 
   <div style="text-align: center;"id="formLayout";>
-   <form id="loginForm">
+   <form  method="POST">
         <h1>Log in</h1>
         <br><input class="inputLay" style="text-indent:17px;" type="text" placeholder="ID" name="LoginID" /><br>
         <br><input class="inputLay" style="text-indent:17px;" type="password" placeholder="Password" name="LoginPassword" /><br><br />
